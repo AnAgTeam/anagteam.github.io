@@ -1,9 +1,4 @@
-:root, html, body {
-    margin:0;
-    padding:0;
-    height:100%;
-    width:100%;
-
+:root, html, body, a, img {
     /* Disable userselect */
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -14,9 +9,22 @@
     text-decoration: none;
 }
 
+:root, html, body {
+    scrollbar-width: none;
+    overflow: hidden;
+
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+
 :root {
     --main-color: #060606;
     --accent-color: #ffe4c4;
+
+    --download-btn-color: #c4ffc7;
+    --sources-btn-color: #919191;
 
     /* Setup main vars */
     background-color: var(--main-color);

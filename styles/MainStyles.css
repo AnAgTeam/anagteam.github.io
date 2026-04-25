@@ -1,19 +1,20 @@
 @import "styles/root.css";
 
-.download-block, .description-block {
+.download-block, .description-block, .screenshots-block {
     text-align: center;
     font-size: 14px;
-}
 
-.download-block h1, .description-block {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-
-.download-block a, .description-block {
-    font-weight: 100px;
-}
-
-.description-block {
     margin-bottom: 5%;
+}
+
+.download-block h1, .description-block h1, .screenshots-block h1 {
+    text-decoration: underline;
+    padding-bottom: 0px;
+
+    margin-top: 1%;
+    margin-bottom: 5px;
+}
+
+.download-block a, .description-block a, .screenshots-block a {
+    font-weight: 100px;
 }

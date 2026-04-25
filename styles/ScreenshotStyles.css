@@ -1,0 +1,15 @@
+@import "styles/root.css";
+
+.gallery img:hover {
+    filter: brightness(0.5) contrast(0.9);
+}
+
+.screenshots-block img {
+    width: 360px;
+    height: 640px;
+
+    margin: 2px;
+    padding: 2px;
+    
+    margin-bottom: 1%;
+}
