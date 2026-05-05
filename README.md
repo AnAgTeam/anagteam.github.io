@@ -7,7 +7,7 @@
 Содержит ссылки на мой форк, а так же на стабильную ветку.
 
 Мой форк:
-https://github.com/Nionim/AniAnglia
+https://github.com/AniSaturn/AniAnglia
 
 Stable версия:
 https://github.com/AnAgTeam/AniAnglia
